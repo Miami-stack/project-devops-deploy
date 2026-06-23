@@ -33,7 +33,7 @@ jobs:
       - name: Run Tests
         run: ./gradlew test --no-daemon
 
-  # 2. Сборка и публикация
+  # #2. Сборка и публикация
   build-and-push:
     name: Build & Push Image
     needs: test
