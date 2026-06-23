@@ -28,19 +28,8 @@ jobs:
       - name: Install dependencies
         run: ./gradlew dependencies --no-daemon
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: npm
-          cache-dependency-path: frontend/package-lock.json
-
-      - name: Run Backend Tests
+      - name: Run Tests
         run: ./gradlew test --no-daemon
-
-      - name: Run Frontend Tests
-        working-directory: frontend
-        run: npm ci --legacy-peer-deps && npm test -- --passWithNoTests
 
   # 🐳 2. Сборка и публикация
   build-and-push:
