@@ -20,7 +20,7 @@ shadow = { id = "com.gradleup.shadow", version.ref = "shadow-plugin" }
 # sonarqube = { id = "org.sonarqube", version.ref = "sonarqube-plugin" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless-plugin" }
 
-spring-boot-version = "4.0.6"
+spring-boot-version = "3.5.7"
 ##               ⬆ = "3.5.8"
 ##               ⬆ = "4.0.0-M1"
 ##               ⬆ = "4.0.0-M2"
@@ -28,7 +28,7 @@ spring-boot-version = "4.0.6"
 ##               ⬆ = "4.0.0-RC1"
 ##               ⬆ = "4.0.0-RC2"
 ##               ⬆ = "4.0.0"
-spring-security-test-version = "7.0.5"
+spring-security-test-version = "6.5.6"
 ##                        ⬆ = "6.5.7"
 ##                        ⬆ = "7.0.0-M1"
 ##                        ⬆ = "7.0.0-M2"
@@ -38,27 +38,27 @@ spring-security-test-version = "7.0.5"
 ##                        ⬆ = "7.0.0-RC3"
 ##                        ⬆ = "7.0.0"
 spring-dependency-version = "1.1.7"
-lombok-plugin = "9.5.0"
+lombok-plugin = "8.14.2"
 ##         ⬆ = "8.14.3"
 ##         ⬆ = "9.0.0-rc2"
 ##         ⬆ = "9.0.0"
 ##         ⬆ = "9.1.0"
-versions-plugin = "0.54.0"
+versions-plugin = "0.52.0"
 ##           ⬆ = "0.53.0"
-shadow-plugin = "9.4.1"
+shadow-plugin = "9.1.0"
 # sonarqube-plugin = "6.3.1.5724"
-spotless-plugin = "8.5.1"
+spotless-plugin = "8.0.0"
 ##           ⬆ = "8.1.0"
 
-jackson-databind-nullable = "0.2.10"
+jackson-databind-nullable = "0.2.7"
 ##                     ⬆ = "0.2.8"
-springdoc-openapi-ui = "3.0.3"
+springdoc-openapi-ui = "2.8.13"
 ##                ⬆ = "2.8.14"
 ##                ⬆ = "3.0.0-M1"
 ##                ⬆ = "3.0.0-RC1"
 ##                ⬆ = "3.0.0"
 # commons-lang3 = "3.18.0"
-datafaker = "2.5.4"
+datafaker = "2.4.4"
 ##     ⬆ = "2.5.0"
 ##     ⬆ = "2.5.1"
 ##     ⬆ = "2.5.2"
@@ -67,15 +67,15 @@ datafaker = "2.5.4"
 # jsonunit-assertj = "4.1.1"
 mapstruct = "1.6.3"
 h2 = "2.3.232"
-junit-bom = "6.0.3"
+junit-bom = "6.0.0"
 ##     ⬆ = "6.0.1"
 ##     ⬆ = "6.1.0-M1"
 instancio = "5.5.1"
-postgresql = "42.7.11"
+postgresql = "42.7.5"
 ##      ⬆ = "42.7.6"
 ##      ⬆ = "42.7.7"
 ##      ⬆ = "42.7.8"
-aws-sdk = "2.44.8"
+aws-sdk = "2.29.15"
 ##   ⬆ = "2.29.16"
 ##   ⬆ = "2.29.17"
 ##   ⬆ = "2.29.18"
@@ -357,7 +357,7 @@ junitJupiter = { module = "org.junit.jupiter:junit-jupiter" }
 junitPlatformLauncher = { module = "org.junit.platform:junit-platform-launcher" }
 mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
 mapstructProcessor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
-lombok = { module = "org.projectlombok:lombok", version = "1.18.46" }
+lombok = { module = "org.projectlombok:lombok", version = "1.18.34" }
 ##                                                   ⬆ = "1.18.36" }
 ##                                                   ⬆ = "1.18.38" }
 ##                                                   ⬆ = "1.18.40" }
@@ -370,6 +370,6 @@ springdocOpenapi = { module = "org.springdoc:springdoc-openapi-starter-webmvc-ui
 postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
 awsS3 = { module = "software.amazon.awssdk:s3", version.ref = "aws-sdk" }
 micrometerPrometheus = { module = "io.micrometer:micrometer-registry-prometheus" }
-logstashLogbackEncoder = { module = "net.logstash.logback:logstash-logback-encoder", version = "9.0" }
+logstashLogbackEncoder = { module = "net.logstash.logback:logstash-logback-encoder", version = "8.0" }
 ##                                                                                        ⬆ = "8.1" }
 ##                                                                                        ⬆ = "9.0" }

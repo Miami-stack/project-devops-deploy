@@ -45,8 +45,7 @@ dependencies {
     testCompileOnly(libs.lombok)
     testAnnotationProcessor(libs.lombok)
     testAnnotationProcessor(libs.lombokMapstructBinding)
-    implementation("org.springframework.boot:spring-boot-starter")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
+
     testImplementation(libs.springBootStarterTest)
     testImplementation(libs.springSecurityTest)
     testImplementation(platform(libs.junitBom))
