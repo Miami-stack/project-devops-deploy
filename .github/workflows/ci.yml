@@ -10,7 +10,7 @@ env:
   REGISTRY: ghcr.io
   OWNER: miami-stack
   REPO: project-devops-deploy
-  IMAGE_NAME: ${{ env.REGISTRY }}/${{ env.OWNER }}/${{ env.REPO }}
+  IMAGE_NAME: ghcr.io/miami-stack/project-devops-deploy
 
 jobs:
   # 1. Прогон тестов
